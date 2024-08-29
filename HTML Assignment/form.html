@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altschool Aplication Form Assignment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 style="text-align: center">Altschool Aplication Form Assignment</h1>
+      <form>
+        <label for="First Name"> First Name :</label>
+        <input type="text" placeholder="Input your first name" />
+        <br />
+        <label for="Last Name"> Last Name</label>
+        <input type="text" placeholder="Input Your Last Name" />
+        <br />
+        <label for=" Gender"> Gender : </label>
+
+        <select name="gender" id="gender" aria-placeholder="Select Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+        <br />
+        <label for="DOB"> Date of Birth :</label>
+        <input type="date" name="DOB" id="DOB" /> <br />
+        <label for="email"> Email address :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Input Email Address Here"
+        />
+        <br />
+        <label for="phone number"> Phone Number :</label>
+        <input type="tel" name="phone number" id="phonenumber" />
+        <br />
+        <label for="country"> Country :</label>
+        <input type="address" aria-placeholder="Input your Country Here" />
+        <br />
+        <label for="SOR">State Of Residence :</label>
+        <input type="text" aria-placeholder="Input State of Residence Here" />
+        <br />
+        <label for="">How did you here about us?</label>
+        <select name="hear about us" id="hAU">
+          <option value="TV">Television</option>
+          <option value="FB">Facebook</option>
+          <option value="X">X/Twitter</option>
+          <option value="Ig">Instagram</option>
+          <option value="Others">Others</option>
+        </select>
+        <br />
+        <label for="password"> Password :</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Enter Password"
+        />
+        <br />
+        <label for="confirmpassword" class="label"> Confirm Password :</label>
+        <input
+          type="password"
+          name="confirmpassword"
+          id="confirmpassword"
+          placeholder="Confirm Password"
+        />
+
+        
+        <p>
+          By clicking continue, I agree to Terms of Use and acknowledge that I
+          have read the Privacy Policy.
+        </p>
+        <input type="button" value="Submit" class="submit" />
+      </form>
+      <p>&copy; Edwin Kelechi</p>
+    </main>
+    <footer>
+      <nav>
+        <a href="./form.html"> Back to top</a> <br />
+        <a href="./index.html"> Home Page</a><br />
+        <a href="./media.html">Media Page</a>
+      </nav>
+    </footer>
+  </body>
+</html>

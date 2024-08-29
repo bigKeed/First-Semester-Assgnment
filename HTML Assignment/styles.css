@@ -1,0 +1,88 @@
+html{
+    background-color: aliceblue;
+    font-size: medium;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.sID {
+text-align: center;
+}
+.ih1{
+    
+   text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:bold ;
+    
+    
+ }
+ 
+ p {
+    color: #000000;
+    
+   
+    text-align: justify;
+ }
+
+  nav {
+ 
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 2px solid burlywood;
+    padding: 10px;
+    text-align: left;}
+
+    .tcaption{
+        text-align: center;
+        padding: 2%;
+        font-style: italic;
+    }
+  
+    form {
+        min-width: 240px;
+        max-width: 720px;
+        text-align: center;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      
+      .label {
+       border-radius: 50%;
+        box-sizing: border-box;
+       
+        margin-bottom: 10px;
+      }
+      
+      
+      
+      
+      .submit {
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .submit:hover {
+        background-color: #3e8e41;
+      }
+      video {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      
